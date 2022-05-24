@@ -24,5 +24,5 @@ npm run build
 npm run lint
 ```
 
-##What I've learned
+## What I've learned
 - To use tailwindcss with Vue3, I need to have the tailwindcss.config.js and postcss.config.js files in my project. (both with similar configuration)
