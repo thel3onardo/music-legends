@@ -1,5 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import TheNavbar from "../components/TheNavbar.vue";
+</script>
 
 <template>
-    <p class="text-red-500">oi</p>
+    <TheNavbar />
 </template>
