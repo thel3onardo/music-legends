@@ -11,7 +11,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        'eesti': 'Eesti Pro'
+        'eesti': 'Eesti Pro',
+        'body': 'Eesti Pro'
       }
     },
   },
