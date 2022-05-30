@@ -6,8 +6,10 @@ module.exports = {
         gray: '#C0C0C0',
         light: '#F1F0F0',
         dark: '#14061F',
+        blue: '#2FB4FF',
         green: {
-          300: '#2EF4CC'
+          300: '#2EF4CC',
+          400: '#4AC08F'
         }
       },
       fontFamily: {
