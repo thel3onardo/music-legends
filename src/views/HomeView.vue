@@ -10,7 +10,7 @@ music.setImageBg('https://images.hdqwalls.com/wallpapers/cute-anime-girl-caty-ha
 </script>
 
 <template>
-    <div class="flex flex-col justify-between h-screen bg-black">
+    <div class="flex flex-col justify-between h-screen bg-black relative">
         <NavBar />
         <MusicBackground />
         <PlayerBar />

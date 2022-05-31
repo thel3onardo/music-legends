@@ -3,10 +3,9 @@ import { useMusicStore } from '../stores/music';
 
 const music = useMusicStore();
 </script>
+
 <template>
-    <div class="h-full w-full bg-cover bg-center bg-no-repeat bg-gradient" :style="{ 'backgroundImage': `url('${music.getImageBg}')`}">
-        <p>qwd</p>
-    </div>
+    <div class="h-full w-full bg-cover bg-center bg-no-repeat bg-gradient" :style="{ 'backgroundImage': `url('${music.getImageBg}')`}"></div>
 </template>
 
 <style lang="sass" scoped>
