@@ -13,7 +13,7 @@ const navItems = ref([
 <template>
     <nav class="bg-transparent md:bg-dark text-white font-eesti absolute top-0 z-10 w-full">
         <div class="w-full flex justify-center relative mx-auto py-5" style="max-width: 1200px">
-            <NavBarMobileMenu />
+            <NavBarMobileMenu :menuItems="navItems" />
             <ul class="hidden md:flex items-center text-lg text-gray absolute left-0 top-0 h-full">
                 <li v-for="item in navItems" :key="item.label" class="px-8">
                     <router-link :to="item.to">{{ item.label }}</router-link>
