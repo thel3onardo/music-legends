@@ -24,3 +24,11 @@ const navItems = ref([
         </div>
     </nav>
 </template>
+
+<style lang="scss" scoped>
+.router-link-exact-active {
+    color: #2EF4CC;
+    text-shadow: 0px 0px 5px #2ef4cc54;
+    transition: color .3s ease
+}
+</style>
